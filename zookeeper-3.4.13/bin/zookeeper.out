@@ -1,0 +1,229 @@
+2023-07-20 13:41:21,671 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../conf/zoo.cfg
+2023-07-20 13:41:21,673 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2023-07-20 13:41:21,673 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2023-07-20 13:41:21,673 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2023-07-20 13:41:21,673 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
+2023-07-20 13:41:21,678 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../conf/zoo.cfg
+2023-07-20 13:41:21,678 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 04:05 GMT
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=Ben-PC.
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=11.0.19
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Ubuntu
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../build/classes:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../build/lib/*.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../lib/slf4j-log4j12-1.7.25.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../lib/slf4j-api-1.7.25.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../lib/netty-3.10.6.Final.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../lib/log4j-1.2.17.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../lib/jline-0.9.94.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../lib/audience-annotations-0.5.0.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../zookeeper-3.4.13.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../src/java/lib/*.jar:/home/brayner/ECE454-A3/zookeeper-3.4.13/bin/../conf:
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2023-07-20 13:41:21,681 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2023-07-20 13:41:21,682 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2023-07-20 13:41:21,682 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2023-07-20 13:41:21,682 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=5.15.90.1-microsoft-standard-WSL2
+2023-07-20 13:41:21,682 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=brayner
+2023-07-20 13:41:21,682 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/brayner
+2023-07-20 13:41:21,682 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/brayner/ECE454-A3/zookeeper-3.4.13/bin
+2023-07-20 13:41:21,685 [myid:] - INFO  [main:ZooKeeperServer@836] - tickTime set to 100
+2023-07-20 13:41:21,685 [myid:] - INFO  [main:ZooKeeperServer@845] - minSessionTimeout set to -1
+2023-07-20 13:41:21,685 [myid:] - INFO  [main:ZooKeeperServer@854] - maxSessionTimeout set to -1
+2023-07-20 13:41:21,689 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2023-07-20 13:41:21,692 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2023-07-20 13:41:23,797 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000004c5f0001, timeout of 2000ms exceeded
+2023-07-20 13:41:23,798 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000004c5f0000, timeout of 2000ms exceeded
+2023-07-20 13:41:23,798 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000004c5f0001
+2023-07-20 13:41:23,798 [myid:] - INFO  [SyncThread:0:FileTxnLog@213] - Creating new log file: log.8b1
+2023-07-20 13:41:23,798 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000004c5f0000
+2023-07-20 13:43:14,078 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:44824
+2023-07-20 13:43:14,083 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:44824
+2023-07-20 13:43:14,085 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0000 with negotiated timeout 2000 for client /127.0.0.1:44824
+2023-07-20 13:43:15,764 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0000
+2023-07-20 13:43:15,766 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:44824 which had sessionid 0x10000010aea0000
+2023-07-20 13:43:20,703 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:47624
+2023-07-20 13:43:20,708 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:47624
+2023-07-20 13:43:20,709 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0001 with negotiated timeout 2000 for client /127.0.0.1:47624
+2023-07-20 13:43:29,147 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0001
+2023-07-20 13:43:29,150 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:47624 which had sessionid 0x10000010aea0001
+2023-07-20 13:43:42,858 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:39364
+2023-07-20 13:43:42,862 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39364
+2023-07-20 13:43:42,864 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0002 with negotiated timeout 2000 for client /127.0.0.1:39364
+2023-07-20 13:43:58,763 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0002
+2023-07-20 13:43:58,765 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:39364 which had sessionid 0x10000010aea0002
+2023-07-20 13:45:08,501 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:48862
+2023-07-20 13:45:08,506 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:48862
+2023-07-20 13:45:08,507 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0003 with negotiated timeout 2000 for client /127.0.0.1:48862
+2023-07-20 13:45:37,854 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0003, likely client has closed socket
+2023-07-20 13:45:37,854 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:48862 which had sessionid 0x10000010aea0003
+2023-07-20 13:45:39,296 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0003, timeout of 2000ms exceeded
+2023-07-20 13:45:39,296 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0003
+2023-07-20 13:45:50,218 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:41186
+2023-07-20 13:45:50,223 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:41186
+2023-07-20 13:45:50,225 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0004 with negotiated timeout 2000 for client /127.0.0.1:41186
+2023-07-20 13:46:01,413 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0004, likely client has closed socket
+2023-07-20 13:46:01,413 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:41186 which had sessionid 0x10000010aea0004
+2023-07-20 13:46:02,996 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0004, timeout of 2000ms exceeded
+2023-07-20 13:46:02,996 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0004
+2023-07-20 13:46:26,935 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:54026
+2023-07-20 13:46:26,938 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:54026
+2023-07-20 13:46:26,941 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0005 with negotiated timeout 2000 for client /127.0.0.1:54026
+2023-07-20 13:46:53,292 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:37076
+2023-07-20 13:46:53,295 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:37076
+2023-07-20 13:46:53,296 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0006 with negotiated timeout 2000 for client /127.0.0.1:37076
+2023-07-20 13:47:06,012 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0006, likely client has closed socket
+2023-07-20 13:47:06,012 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:37076 which had sessionid 0x10000010aea0006
+2023-07-20 13:47:07,896 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0006, timeout of 2000ms exceeded
+2023-07-20 13:47:07,896 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0006
+2023-07-20 13:47:42,521 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:48916
+2023-07-20 13:47:42,523 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:48916
+2023-07-20 13:47:42,524 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0007 with negotiated timeout 2000 for client /127.0.0.1:48916
+2023-07-20 13:47:58,420 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0005, likely client has closed socket
+2023-07-20 13:47:58,420 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:54026 which had sessionid 0x10000010aea0005
+2023-07-20 13:48:00,396 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0005, timeout of 2000ms exceeded
+2023-07-20 13:48:00,397 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0005
+2023-07-20 14:13:35,752 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:44252
+2023-07-20 14:13:35,756 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:44252
+2023-07-20 14:13:35,757 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0008 with negotiated timeout 2000 for client /127.0.0.1:44252
+2023-07-20 14:13:40,746 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:50498
+2023-07-20 14:13:40,751 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:50498
+2023-07-20 14:13:40,752 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0009 with negotiated timeout 2000 for client /127.0.0.1:50498
+2023-07-20 14:13:43,792 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:50510
+2023-07-20 14:13:43,798 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:50510
+2023-07-20 14:13:43,800 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea000a with negotiated timeout 2000 for client /127.0.0.1:50510
+2023-07-20 14:13:59,779 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0008, likely client has closed socket
+2023-07-20 14:13:59,780 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:44252 which had sessionid 0x10000010aea0008
+2023-07-20 14:14:01,496 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0008, timeout of 2000ms exceeded
+2023-07-20 14:14:01,496 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0008
+2023-07-20 14:14:11,862 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:55776
+2023-07-20 14:14:11,867 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:55776
+2023-07-20 14:14:11,869 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea000b with negotiated timeout 2000 for client /127.0.0.1:55776
+2023-07-20 14:14:29,223 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea000a, likely client has closed socket
+2023-07-20 14:14:29,224 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:50510 which had sessionid 0x10000010aea000a
+2023-07-20 14:14:30,597 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea000a, timeout of 2000ms exceeded
+2023-07-20 14:14:30,599 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea000a
+2023-07-20 14:14:50,889 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0009
+2023-07-20 14:14:50,920 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:50498 which had sessionid 0x10000010aea0009
+2023-07-20 14:14:51,832 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea000b
+2023-07-20 14:14:51,833 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:55776 which had sessionid 0x10000010aea000b
+2023-07-20 14:17:09,487 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:60516
+2023-07-20 14:17:09,492 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:60516
+2023-07-20 14:17:09,501 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea000c with negotiated timeout 2000 for client /127.0.0.1:60516
+2023-07-20 14:17:13,651 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:34044
+2023-07-20 14:17:13,655 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:34044
+2023-07-20 14:17:13,656 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea000d with negotiated timeout 2000 for client /127.0.0.1:34044
+2023-07-20 14:17:23,103 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:32904
+2023-07-20 14:17:23,108 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:32904
+2023-07-20 14:17:23,110 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea000e with negotiated timeout 2000 for client /127.0.0.1:32904
+2023-07-20 14:17:44,735 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea000c, likely client has closed socket
+2023-07-20 14:17:44,736 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:60516 which had sessionid 0x10000010aea000c
+2023-07-20 14:17:46,396 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea000c, timeout of 2000ms exceeded
+2023-07-20 14:17:46,397 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea000c
+2023-07-20 14:18:12,983 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea000e, likely client has closed socket
+2023-07-20 14:18:12,984 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:32904 which had sessionid 0x10000010aea000e
+2023-07-20 14:18:14,497 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea000e, timeout of 2000ms exceeded
+2023-07-20 14:18:14,497 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea000e
+2023-07-20 14:18:31,888 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea000d, likely client has closed socket
+2023-07-20 14:18:31,900 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:34044 which had sessionid 0x10000010aea000d
+2023-07-20 14:18:33,798 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea000d, timeout of 2000ms exceeded
+2023-07-20 14:18:33,799 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea000d
+2023-07-20 14:24:09,889 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:49854
+2023-07-20 14:24:09,893 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:49854
+2023-07-20 14:24:09,900 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea000f with negotiated timeout 2000 for client /127.0.0.1:49854
+2023-07-20 14:24:11,080 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:54008
+2023-07-20 14:24:11,084 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:54008
+2023-07-20 14:24:11,086 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0010 with negotiated timeout 2000 for client /127.0.0.1:54008
+2023-07-20 14:24:13,003 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:54010
+2023-07-20 14:24:13,009 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:54010
+2023-07-20 14:24:13,011 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0011 with negotiated timeout 2000 for client /127.0.0.1:54010
+2023-07-20 14:24:35,317 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea000f, likely client has closed socket
+2023-07-20 14:24:35,318 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:49854 which had sessionid 0x10000010aea000f
+2023-07-20 14:24:37,196 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea000f, timeout of 2000ms exceeded
+2023-07-20 14:24:37,198 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea000f
+2023-07-20 14:24:38,965 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:51478
+2023-07-20 14:24:38,970 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:51478
+2023-07-20 14:24:38,972 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0012 with negotiated timeout 2000 for client /127.0.0.1:51478
+2023-07-20 14:25:00,580 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0011, likely client has closed socket
+2023-07-20 14:25:00,581 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:54010 which had sessionid 0x10000010aea0011
+2023-07-20 14:25:02,397 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0011, timeout of 2000ms exceeded
+2023-07-20 14:25:02,398 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0011
+2023-07-20 14:25:09,022 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0010
+2023-07-20 14:25:09,074 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:54008 which had sessionid 0x10000010aea0010
+2023-07-20 14:25:09,158 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0012
+2023-07-20 14:25:09,160 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:51478 which had sessionid 0x10000010aea0012
+2023-07-20 14:25:29,112 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:44204
+2023-07-20 14:25:29,118 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:44204
+2023-07-20 14:25:29,131 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0013 with negotiated timeout 2000 for client /127.0.0.1:44204
+2023-07-20 14:25:30,009 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:44206
+2023-07-20 14:25:30,014 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:44206
+2023-07-20 14:25:30,016 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0014 with negotiated timeout 2000 for client /127.0.0.1:44206
+2023-07-20 14:25:34,552 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:59536
+2023-07-20 14:25:34,558 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:59536
+2023-07-20 14:25:34,560 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0015 with negotiated timeout 2000 for client /127.0.0.1:59536
+2023-07-20 14:25:50,246 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0013, likely client has closed socket
+2023-07-20 14:25:50,247 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:44204 which had sessionid 0x10000010aea0013
+2023-07-20 14:25:52,098 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0013, timeout of 2000ms exceeded
+2023-07-20 14:25:52,099 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0013
+2023-07-20 14:25:53,891 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:47778
+2023-07-20 14:25:53,897 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:47778
+2023-07-20 14:25:53,899 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0016 with negotiated timeout 2000 for client /127.0.0.1:47778
+2023-07-20 14:26:03,164 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0014, likely client has closed socket
+2023-07-20 14:26:03,167 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:44206 which had sessionid 0x10000010aea0014
+2023-07-20 14:26:04,697 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0014, timeout of 2000ms exceeded
+2023-07-20 14:26:04,697 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0014
+2023-07-20 14:26:06,156 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:33684
+2023-07-20 14:26:06,160 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:33684
+2023-07-20 14:26:06,163 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0017 with negotiated timeout 2000 for client /127.0.0.1:33684
+2023-07-20 14:26:15,964 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0017, likely client has closed socket
+2023-07-20 14:26:15,965 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:33684 which had sessionid 0x10000010aea0017
+2023-07-20 14:26:17,597 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0017, timeout of 2000ms exceeded
+2023-07-20 14:26:17,597 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0017
+2023-07-20 14:26:19,643 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:48138
+2023-07-20 14:26:19,648 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:48138
+2023-07-20 14:26:19,651 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0018 with negotiated timeout 2000 for client /127.0.0.1:48138
+2023-07-20 14:26:29,333 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0016, likely client has closed socket
+2023-07-20 14:26:29,333 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:47778 which had sessionid 0x10000010aea0016
+2023-07-20 14:26:31,097 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0016, timeout of 2000ms exceeded
+2023-07-20 14:26:31,097 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0016
+2023-07-20 14:26:31,531 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:41270
+2023-07-20 14:26:31,535 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:41270
+2023-07-20 14:26:31,537 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea0019 with negotiated timeout 2000 for client /127.0.0.1:41270
+2023-07-20 14:26:43,539 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0019, likely client has closed socket
+2023-07-20 14:26:43,542 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:41270 which had sessionid 0x10000010aea0019
+2023-07-20 14:26:44,996 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0019, timeout of 2000ms exceeded
+2023-07-20 14:26:44,997 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0019
+2023-07-20 14:26:45,836 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:37348
+2023-07-20 14:26:45,842 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:37348
+2023-07-20 14:26:45,844 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea001a with negotiated timeout 2000 for client /127.0.0.1:37348
+2023-07-20 14:26:55,933 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea0018, likely client has closed socket
+2023-07-20 14:26:55,934 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:48138 which had sessionid 0x10000010aea0018
+2023-07-20 14:26:57,896 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea0018, timeout of 2000ms exceeded
+2023-07-20 14:26:57,897 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0018
+2023-07-20 14:26:57,926 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:35812
+2023-07-20 14:26:57,931 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:35812
+2023-07-20 14:26:57,933 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea001b with negotiated timeout 2000 for client /127.0.0.1:35812
+2023-07-20 14:27:12,411 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea001b, likely client has closed socket
+2023-07-20 14:27:12,413 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:35812 which had sessionid 0x10000010aea001b
+2023-07-20 14:27:13,996 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea001b, timeout of 2000ms exceeded
+2023-07-20 14:27:13,997 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea001b
+2023-07-20 14:27:14,655 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:39408
+2023-07-20 14:27:14,661 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39408
+2023-07-20 14:27:14,663 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea001c with negotiated timeout 2000 for client /127.0.0.1:39408
+2023-07-20 14:27:23,189 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea001c, likely client has closed socket
+2023-07-20 14:27:23,196 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:39408 which had sessionid 0x10000010aea001c
+2023-07-20 14:27:24,796 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea001c, timeout of 2000ms exceeded
+2023-07-20 14:27:24,797 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea001c
+2023-07-20 14:27:25,061 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:60380
+2023-07-20 14:27:25,071 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:60380
+2023-07-20 14:27:25,075 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea001d with negotiated timeout 2000 for client /127.0.0.1:60380
+2023-07-20 14:27:34,804 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea0015
+2023-07-20 14:27:34,809 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:59536 which had sessionid 0x10000010aea0015
+2023-07-20 14:27:51,046 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x10000010aea001d, likely client has closed socket
+2023-07-20 14:27:51,053 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:60380 which had sessionid 0x10000010aea001d
+2023-07-20 14:27:51,897 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x10000010aea001d, timeout of 2000ms exceeded
+2023-07-20 14:27:51,899 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea001d
+2023-07-20 14:27:52,239 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:56364
+2023-07-20 14:27:52,242 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@942] - Client attempting to renew session 0x10000010aea001d at /127.0.0.1:56364
+2023-07-20 14:27:52,248 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@687] - Invalid session 0x10000010aea001d for client /127.0.0.1:56364, probably expired
+2023-07-20 14:27:52,248 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:56364 which had sessionid 0x10000010aea001d
+2023-07-20 14:28:02,369 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:41350
+2023-07-20 14:28:02,369 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:41350
+2023-07-20 14:28:02,380 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x10000010aea001e with negotiated timeout 2000 for client /127.0.0.1:41350
+2023-07-20 14:30:52,925 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea001a
+2023-07-20 14:30:52,927 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:37348 which had sessionid 0x10000010aea001a
+2023-07-20 14:30:53,643 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10000010aea001e
+2023-07-20 14:30:53,645 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:41350 which had sessionid 0x10000010aea001e
